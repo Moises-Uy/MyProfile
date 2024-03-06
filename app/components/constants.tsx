@@ -10,11 +10,11 @@ const constants: NAV_BAR[] = [
   },
   {
     title: "Skill",
-    path: "/",
+    path: "/Skill",
   },
   {
     title: "Socials",
-    path: "/",
+    path: "/Social",
   },
 ];
 export default constants;
