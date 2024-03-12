@@ -50,4 +50,17 @@ export const aboutme: About_me[] = [
   },
 ];
 
+type Info = {
+  header: string;
+  about: string;
+};
+
+export const Info: Info[] = [
+  {
+    header: "Moises Andrei G. Uy",
+    about:
+      "I possess a foundational understanding of web programming, particularly in the realm of front-end development. I am familiar with concepts such as responsive design, accessibility, and browser compatibility, ensuring seamless functioning of websites across various devices and platforms.",
+  },
+];
+
 export default constants;
