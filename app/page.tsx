@@ -9,11 +9,11 @@ export default function Home() {
             Moises Andrei G. Uy
           </h1>
           <p className="text-3xl mb-16 text-color-custom">
-            I possess a foundational understanding of web programming,
-            particularly in the realm of front-end development. I'm familiar
-            with concepts such as responsive design, accessibility, and browser
-            compatibility, ensuring that websites function seamlessly across
-            various devices and platforms.
+            I possess a foundational understanding of web
+            programming,particularly in the realm of front-end development. I'm
+            familiar with concepts such as responsive design, accessibility, and
+            browser compatibility, ensuring that websites function seamlessly
+            across various devices and platforms.
           </p>
           <a
             href="mailto:it.moisesuy@gmail.com"
