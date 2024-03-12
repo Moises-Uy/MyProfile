@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+      <nav className="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700 z-50">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href="/"
@@ -61,6 +61,7 @@ const Navbar: React.FC = () => {
           </div>
         </div>
       </nav>
+      <div className="topBlur -z-10"></div>
     </>
   );
 };

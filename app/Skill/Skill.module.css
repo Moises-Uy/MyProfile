@@ -1,0 +1,42 @@
+.content {
+  text-align: center;
+  margin-top: 72px;
+  z-index: 2;
+}
+
+.title {
+  font-size: 65px;
+  margin-bottom: 72px;
+}
+
+.imgContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 200px;
+  text-align: center;
+  z-index: 2;
+  margin-bottom: 36px;
+}
+
+.imgContainer img {
+  width: 500px;
+  border-radius: 20%;
+  border: 1px solid black;
+  padding: 20px;
+  transition: transform 0.3s ease;
+  max-width: 100%;
+  /* Ensure images don't exceed their container */
+  height: auto;
+  /* Maintain aspect ratio */
+}
+
+.imgContainer img:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 1024px) {
+  .imgContainer {
+    grid-template-columns: repeat(2, 1fr);
+    width: 45%;
+  }
+}
